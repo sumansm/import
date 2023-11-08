@@ -84,16 +84,16 @@ storage:
 deployemts:
   inputs:
     - name: my_database_pass
-      label: PASSWORD FOR WORDPRESS
-      type: text
-      required: true
-      default: PASSWORD
-      description: abcd
-      size: 1x
-    - name: my_database_pass2
-      label: PASSWORD FOR WORDPRESS
-      type: text
-      required: true
-      default: PASSWORD
-      description: abcd
-      size: 1x
+        label: PASSWORD FOR WORDPRESS
+        type: text
+        required: true
+        default: PASSWORD
+        description: abcd
+        size: 1x
+    - name: my_sql_user
+        label: NAME FOR MYSQL USER
+        type: text
+        required: true
+        default: SUMAN
+        description: PASSWORD FOR MYSQL USER
+        size: 1x
