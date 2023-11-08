@@ -90,3 +90,10 @@ deployemts:
       default: PASSWORD
       description: abcd
       size: 1x
+    - name: my_database_pass2
+      label: PASSWORD FOR WORDPRESS
+      type: text
+      required: true
+      default: PASSWORD
+      description: abcd
+      size: 1x
