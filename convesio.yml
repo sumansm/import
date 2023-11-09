@@ -104,3 +104,10 @@ deployemts:
         default: SUMAN
         description: PASSWORD FOR MYSQL USER
         size: 1x
+    - name: root_password
+      label: MYSQL ROOT USER
+      type: text
+      required: true
+      default: SUMAN
+      description: PASSWORD FOR MYSQL ROOT USER
+      size: 1x
