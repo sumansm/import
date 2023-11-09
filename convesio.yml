@@ -13,7 +13,7 @@ services:
     environment:
       APPLICATION_TYPE: PHP
       DEVELOPMENT_MODE: development
-      WORDPRESS_DB_HOST: "0.0.0.0"
+      WORDPRESS_DB_HOST: "mysql"
       WORDPRESS_DB_NAME: "${my_sql_user}"
       WORDPRESS_DB_USER: "wpuser"
       WORDPRESS_DB_PASSWORD: "${my_database_pass}"
