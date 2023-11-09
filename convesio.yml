@@ -14,7 +14,7 @@ services:
       APPLICATION_TYPE: PHP
       DEVELOPMENT_MODE: development
       WORDPRESS_DB_HOST: "0.0.0.0"
-      WORDPRESS_DB_NAME: "wordpress"
+      WORDPRESS_DB_NAME: "${my_sql_user}"
       WORDPRESS_DB_USER: "wpuser"
       WORDPRESS_DB_PASSWORD: "${my_database_pass}"
     mount:
@@ -47,7 +47,7 @@ services:
       container_name: my_mysql_container
     environment:
       MYSQL_ROOT_PASSWORD: root_password
-      MYSQL_DATABASE: my_database
+      MYSQL_DATABASE: ${my_sql_user}
       MYSQL_USER: user
       MYSQL_PASSWORD: ${my_database_pass}
     route:
