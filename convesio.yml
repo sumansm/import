@@ -95,7 +95,7 @@ deployemts:
         type: text
         required: true
         default: WORDPRESS
-        description: PASSWORD FOR MYSQL USER
+        description: NAME FOR MYSQL DATABASE
         size: 1x
     - name: my_sql_user
         label: NAME FOR MYSQL USER
